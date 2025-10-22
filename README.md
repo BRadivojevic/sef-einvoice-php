@@ -8,9 +8,6 @@ composer install
 php -S localhost:8081 -t examples
 Open http://localhost:8081/issue_serbia.php.
 
-sql
-Copy code
-
 ## C) Commit & push
 ```bash
 git add .
