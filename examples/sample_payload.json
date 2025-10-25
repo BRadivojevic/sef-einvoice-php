@@ -1,0 +1,19 @@
+{
+  "buyer": {
+    "name": "Kupac d.o.o.",
+    "tin": "109876543",
+    "city": "Novi Sad",
+    "street": "Bulevar 2",
+    "country": "RS"
+  },
+  "items": [
+    {
+      "name": "Artikal A",
+      "qty": 1,
+      "price": 1000,
+      "vat_code": "S20"
+    }
+  ],
+  "currency": "RSD",
+  "issue_date": "2025-10-25"
+}

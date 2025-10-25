@@ -1,0 +1,28 @@
+{
+  "name": "BRadivojevic/sef-einvoice-php",
+  "description": "SEF e-invoice (Serbia) integration: UBL 2.1 XML builder, 3.14.0 profile checks, queue+worker, retries, attachments",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Boško Radivojević",
+      "homepage": "https://github.com/BRadivojevic"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "ext-xml": "*",
+    "ext-dom": "*",
+    "ext-libxml": "*",
+    "vlucas/phpdotenv": "^5.6",
+    "monolog/monolog": "^3.7",
+    "guzzlehttp/guzzle": "^7.9",
+    "symfony/console": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
